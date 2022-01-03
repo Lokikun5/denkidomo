@@ -4,21 +4,26 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="max-width=device-width, initial-scale=1.0"> 
 	    <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
         <link rel="shortcut icon" type="image/x-icon" href="images/20140821-Denki-favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <script src="https://kit.fontawesome.com/165377c211.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&family=Shrikhand&display=swap" rel="stylesheet"> 
-		<title>Denkidomo</title>
+		<meta name="description" content="DenkiDomo met à votre disposition son expertise globale pour réaliser votre projet d’installation électrique ou de domotique (rénovation ou neuf).">
+        <title>Denkidomo</title>
     </head>
     <body>
+        <div class="btnUp">
+            <i class="fas fa-arrow-up fa-2x"></i>
+        </div>
         <header>
             <img src="images/LOGO.png" alt="Denkidomo">
             <nav>
                 <ul>
                     <li><div class="nav__border"><a href="#"><i class="fas fa-home fa-lg"></i>Accueil</a></div></li>
-                    <li><div class="nav__border"><a href="#"><i class="fas fa-question-circle fa-lg"></i>Qui sommes nous ?</a></div></li>
-                    <li><div class="nav__border"><a href="#"><i class="fas fa-tools fa-lg"></i>Nos services</a></div></li>
+                    <li><div class="nav__border"><a href="pages/domotique.html"><i class="fas fa-question-circle fa-lg"></i>Qui sommes nous ?</a></div></li>
+                    <li><div class="nav__border"><a href="pages/nos-services.html"><i class="fas fa-tools fa-lg"></i>Nos services</a></div></li>
                     <li><div class="nav__border"><a href="#"><i class="fas fa-phone fa-lg"></i>Contact</a></div></li>
                     <li><div class="nav__border"><a href="#"><i class="fas fa-newspaper fa-lg"></i>Actualités</a></div></li>
                 </ul>
@@ -30,6 +35,12 @@
             </div>
             <div class="bannière">
                 <img src="images/Denki_fond_1309_933_source-avec-ai_3.png" alt="Denki_fond">
+                <div class="LogoBann">
+                   <a href="#"><img class="img1" src="images/AutomatismeAlarme.png" alt="Domotique Automatisme et Alarme"></a>
+                   <a href="#"><img class="img2" src="images/EclairageAmbiance.png" alt="Domotique Automatisme et Alarme"></a>
+                   <a href="#"><img class="img3" src="images/ConfortThermique.png" alt="Domotique Automatisme et Alarme"></a>
+                    <a href="#"><img class="img4" src="images/ImageSon.png" alt="Domotique Automatisme et Alarme"></a>
+                </div>
             </div>
             <section>
                 <div class="ArticlePrev">
@@ -41,7 +52,7 @@
                             <h3>DenkiDomo met à votre disposition son expertise globale pour réaliser votre projet d’installation électrique ou de domotique.</h3>
                         </div>
                         <div class="link--set">
-                            <a href="#">
+                            <a href="pages/domotique.html">
                                 <p>En savoir +</p>
                                 <img src="images/DENKIDOMO_PictoRond_Orange_Eclair_14750mm.png" alt="DENKIDOMO fleche">
                             </a>
@@ -57,7 +68,7 @@
                             <h3>Spécialiste français de la domotique et de la Gestion Technique Centralisée (GTC),DenkiDomo met à votre disposition son expertise globale pour réaliser votre projet d’installation électrique ou de domotique.</h3>
                         </div>
                         <div class="link--set link--set__serv">
-                            <a href="#">
+                            <a href="pages/nos-services.html">
                                 <p>En savoir +</p>
                                 <img src="images/DENKIDOMO_PictoRond_Orange_Eclair_14750mm.png" alt="DENKIDOMO fleche">
                             </a>
@@ -84,10 +95,8 @@
         </main>
         <footer>
             <ul>
-                <li><a href="#">Accueil</a></li>
                 <li><a href="#">Plan du site</a></li>
                 <li><a href="#">Vie privée</a></li>
-                <li><a href="#">Contact</a></li>
                 <li><a href="#">Mentions légales</a></li>
             </ul>
             <div class="NosPart__set">
@@ -101,5 +110,6 @@
                 <p>Copyright © 2011 - DenkiDomo - Tous droits réservés.</p>
             </div>
         </footer>
+        <script src="js/app.js"></script>
     </body>
 </html>
